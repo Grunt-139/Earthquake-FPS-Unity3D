@@ -18,7 +18,7 @@ public class SetupState : GameState {
 		GUI.Label( new Rect(Screen.width * 0.3f, Screen.height * 0.51f,80f,20f), new GUIContent("T: Use health") );
 		GUI.Label( new Rect(Screen.width * 0.3f, Screen.height * 0.54f,80f,20f), new GUIContent("C: Crouch") );
 
-		GUI.Label( new Rect(Screen.width * 0.25f, Screen.height * 0.58f,10f,20f), new GUIContent("Avoid enemy patrols and reach the helicopter for extraction") );
+		GUI.Label( new Rect(Screen.width * 0.25f, Screen.height * 0.58f,Screen.width,20f), new GUIContent("Avoid enemy patrols and reach the helicopter for extraction") );
 
 		if(GUI.Button(new Rect(Screen.width * 0.25f, Screen.height * 0.75f, 80f,80f), gameManager.easyButton ))
 		{
